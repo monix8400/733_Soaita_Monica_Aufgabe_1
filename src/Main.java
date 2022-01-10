@@ -13,7 +13,7 @@ public class Main {
         List<Unternehmen> unternehmenListe = new ArrayList<>();
         Scanner scan = new Scanner(Path.of(filename));
         String text = scan.nextLine();
-        while (scan.hasNext()) {
+        while (scan.hasNextLine()) {
             int id = Integer.parseInt(text.split(",")[0]);
             String name = text.split(",")[1];
             String grosse = text.split(",")[2];
@@ -51,8 +51,21 @@ public class Main {
 
     public static void writeToFile2(String filename, List<Unternehmen> unternehmenListe) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+        List<Unternehmen> neueUnternemensListe = new ArrayList<>();
         for (Unternehmen unternehmen : unternehmenListe) {
-            writer.write( unternehmen.getOrt()+": "+ unternehmen.getEinkommenVonKunde());
+            if (neueUnternemensListe.contains(unternehmen)) {
+                for (Unternehmen neueUnternemen : neueUnternemensListe) {
+                    if (neueUnternemen.getOrt().equals(unternehmen.getOrt())) {
+                            neueUnternemen.setEinkommenVonKunde(neueUnternemen.getEinkommenVonKunde()+unternehmen.getEinkommenVonKunde());
+                    }
+                }
+            } else {
+                neueUnternemensListe.add(unternehmen);
+            }
+        }
+        System.out.println(neueUnternemensListe);
+        for (Unternehmen unternehmen : neueUnternemensListe) {
+            writer.write(unternehmen.getOrt() + ": " + unternehmen.getEinkommenVonKunde());
             writer.newLine();
         }
         writer.close();
@@ -75,6 +88,6 @@ public class Main {
         writeToFile("kundensortiert.txt", sortierteUnternehmenListe1);
 
         List<Unternehmen> topOrteNachEinkommen = TopOrteNachEinkommen(unternehmenList);
-        writeToFile2("statistik.txt",topOrteNachEinkommen);
+        writeToFile2("statistik.txt", topOrteNachEinkommen);
     }
 }

@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf576af2-c246-4015-b33d-10c3701ceacf" name="Changes" comment="aproape gata">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/733_Soaita_Monica_Aufgabe_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kundendaten.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kundensortiert.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Unternehmen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Unternehmensgröße.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unternehmen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unternehmensgröße.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statistik.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kundendaten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kundendaten.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kundensortiert.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kundensortiert.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistik.txt" beforeDir="false" afterPath="$PROJECT_DIR$/statistik.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +117,16 @@
       <option name="presentableId" value="Default" />
       <updated>1641826352329</updated>
       <workItem from="1641826353974" duration="3046000" />
+      <workItem from="1641830703227" duration="2093000" />
     </task>
+    <task id="LOCAL-00001" summary="aproape gata">
+      <created>1641830768397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641830768397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
